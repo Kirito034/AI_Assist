@@ -1,0 +1,12 @@
+Hello! I'm here to help you with your C++ coding needs. C++ is a popular general-purpose programming language that supports procedural, object-oriented, and generic programming. Here's an example of a simple C++ program that prints "Hello, World!" to the console:
+
+```c
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+```
+
+Let me know if you have any specific requirements or features you'd like to see in your C++ code. I can help you with a wide range of tasks, from basic data types and control structures to more advanced topics like classes, templates, and algorithms. Just let me know what you need!

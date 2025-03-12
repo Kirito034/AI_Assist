@@ -1,0 +1,10 @@
+Hello Acer, I'd be happy to help you with that! Here's a simple code in C language to print "Hello World":
+```c
+#include <stdio.h>
+
+int main() {
+   printf("Hello World\n");
+   return 0;
+}
+```
+When you run this code, it will display the message "Hello World" followed by a newline character. The `#include <stdio.h>` statement includes the standard input/output library, which contains the `printf()` function used to print output to the console. The `main()` function is the entry point of the program, and it returns 0 to indicate that the program has executed successfully.

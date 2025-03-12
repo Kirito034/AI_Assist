@@ -1,0 +1,570 @@
+[
+    {
+        "role": "user",
+        "content": "Hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! It's nice to meet you, Amanpreet Singh Ossan. I'm Jarvis, your advanced AI chatbot. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "remember my age is 21"
+    },
+    {
+        "role": "assistant",
+        "content": "I've noted that, Amanpreet Singh Ossan. You are 21 years old."
+    },
+    {
+        "role": "user",
+        "content": "what is my age"
+    },
+    {
+        "role": "assistant",
+        "content": "You are 21 years old."
+    },
+    {
+        "role": "user",
+        "content": "Hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hi again, Amanpreet Singh Ossan!"
+    },
+    {
+        "role": "user",
+        "content": "What is my age?"
+    },
+    {
+        "role": "assistant",
+        "content": "You are 21 years old."
+    },
+    {
+        "role": "user",
+        "content": "Hello my name is Ketki jain"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello Ketki Jain!"
+    },
+    {
+        "role": "user",
+        "content": "what is my age?"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but I don't have that information about you, Ketki Jain. Earlier, I was conversing with Amanpreet Singh Ossan, who is 21 years old."
+    },
+    {
+        "role": "user",
+        "content": "exit"
+    },
+    {
+        "role": "assistant",
+        "content": "Goodbye! It was nice chatting with you."
+    },
+    {
+        "role": "user",
+        "content": "ok"
+    },
+    {
+        "role": "assistant",
+        "content": "Goodbye!"
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'Hello' are:\n[Start]\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'Tell me who is india's Prime minister' are:\n[Start]\nhttp://www.pmindia.gov.in/en/\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you wanted to say something, but it's empty. If you want to chat again or need assistance, feel free to start a new conversation!"
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'prime minister of India' are:\n[Start]\nhttp://www.pmindia.gov.in/en/\nhttps://en.wikipedia.org/wiki/Prime_Minister_of_India\nhttps://www.pmsangrahalaya.gov.in/prime-ministers-of-india\nhttps://www.pmindia.gov.in/en/pms-profile/\nhttps://www.india.gov.in/my-government/whos-who/chief-ministers\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'who is Narander Modi' are:\n[Start]\nhttps://www.instagram.com/narendramodi/?hl=en\nhttps://in.linkedin.com/in/narendramodi\nhttps://www.narendramodi.in/\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you wanted to say something, but it's empty. If you want to chat again or need assistance, feel free to start a new conversation!"
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'Who is Amanpreet Singh Ossan' are:\n[Start]\nhttps://in.linkedin.com/in/amanpreet-singh-ossan-2a4194333\nhttps://uk.linkedin.com/in/amanpreet-singh-a08980113\nhttps://www.instagram.com/aman01offl/?hl=en\nhttps://in.bookmyshow.com/person/aman-preet-singh/2008857\nhttps://www.hindustantimes.com/entertainment/bollywood/rakul-preet-singhs-brother-aman-preet-singh-arrested-in-drugs-case-5-things-we-know-about-him-101721048439784.html\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'Who is Narander Modi' are:\n[Start]\nhttps://www.instagram.com/narendramodi/?hl=en\nhttps://in.linkedin.com/in/narendramodi\nhttps://www.narendramodi.in/\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm still here, waiting for your next message or question. Feel free to start a new conversation anytime!"
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'Who is Amanpreet Singh Ossan' are:\n[Start]\nhttps://in.linkedin.com/in/amanpreet-singh-ossan-2a4194333\nhttps://uk.linkedin.com/in/amanpreet-singh-a08980113\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'What is the stock price of apple' are:\n[Start]\nhttps://investor.apple.com/stock-price/default.aspx\nhttps://www.marketwatch.com/investing/stock/aapl\nhttps://groww.in/us-stocks/aapl\nhttps://finance.yahoo.com/quote/AAPL/\nhttps://www.nasdaq.com/market-activity/stocks/aapl\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": "I think we've reached the end of our conversation. If you need anything in the future, don't hesitate to reach out. Have a great day!"
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'Who is Vladamir Putin' are:\n[Start]\n- https://www.brookings.edu/wp-content/uploads/2016/07/Chapter-One-1.pdf\n- https://www.icc-cpi.int/defendant/vladimir-vladimirovich-putin\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'Who is APJ Abdul kalam' are:\n[Start]\n- http://presidentofindia.nic.in/dr-apj-abdul-kalam-profile\n- https://ramanathapuram.nic.in/tourist-place/dr-apj-abdul-kalams-memorial/\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm going to assume that's a farewell. It was nice chatting with you, and I'll be here whenever you need me. Goodbye for now!"
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'Who is Narander Modi' are:\n[Start]\n- https://www.instagram.com/narendramodi/?hl=en\n- https://in.linkedin.com/in/narendramodi\n- https://www.narendramodi.in/\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'Who is Elon Musk' are:\n[Start]\n- https://www.forbes.com/profile/elon-musk/\n- https://www.investopedia.com/articles/personal-finance/061015/how-elon-musk-became-elon-musk.asp\n[End]"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm ending our conversation here. It was nice chatting with you, and I'll be here whenever you need me. Goodbye for now!"
+    },
+    {
+        "role": "user",
+        "content": "Who is Elon Musl"
+    },
+    {
+        "role": "assistant",
+        "content": "Here are some reliable links about 'Who is Elon Musl':\n1. https://www.forbes.com/profile/elon-musk/\n2. https://www.investopedia.com/articles/personal-finance/061015/how-elon-musk-became-elon-musk.asp\n"
+    },
+    {
+        "role": "user",
+        "content": "What is the Stock price of TCS"
+    },
+    {
+        "role": "assistant",
+        "content": "Here are some reliable links about 'What is the Stock price of TCS':\n1. https://www.moneycontrol.com/india/stockpricequote/computers-software/tataconsultancyservices/TCS\n2. https://groww.in/stocks/tata-consultancy-services-ltd\n3. https://economictimes.indiatimes.com/tata-consultancy-services-ltd/stocks/companyid-8345.cms\n"
+    },
+    {
+        "role": "user",
+        "content": "Hello"
+    },
+    {
+        "role": "assistant",
+        "content": "I couldn't find a direct answer, but here are some reliable links about 'Hello':\n1. T\n2. h\n3. e"
+    },
+    {
+        "role": "user",
+        "content": "WHo is M.S Dhoni"
+    },
+    {
+        "role": "assistant",
+        "content": "I couldn't find a direct answer, but here are some reliable links about 'WHo is M.S Dhoni':\n1. E\n2. r\n3. r"
+    },
+    {
+        "role": "user",
+        "content": "Who is Mahindera Singh Dhoni"
+    },
+    {
+        "role": "assistant",
+        "content": "I couldn't find a direct answer, but here are some reliable links about 'Who is Mahindera Singh Dhoni':\n1. E\n2. r\n3. r"
+    },
+    {
+        "role": "user",
+        "content": "clear"
+    },
+    {
+        "role": "assistant",
+        "content": "I couldn't find a direct answer, but here are some reliable links about 'clear':\n1. E\n2. r\n3. r"
+    },
+    {
+        "role": "user",
+        "content": "who is Virat Kholi"
+    },
+    {
+        "role": "assistant",
+        "content": "I couldn't find a direct answer, but here are some reliable links about 'who is Virat Kholi':\n1. T\n2. h\n3. e"
+    },
+    {
+        "role": "user",
+        "content": "who is Virat Kholi?"
+    },
+    {
+        "role": "assistant",
+        "content": "I couldn't find a direct answer, but here are some reliable links about 'who is Virat Kholi?':\n1. T\n2. h\n3. e"
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'What is the stock price of apple?' are:\n[Start]\nURL: https://investor.apple.com/stock-price/default.aspx\nURL: https://www.marketwatch.com/investing/stock/aapl\nURL: https://groww.in/us-stocks/aapl\nURL: https://finance.yahoo.com/quote/AAPL/\nURL: https://www.cnbc.com/quotes/AAPL\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'What is the stock price of apple?' are:\n[Start]\nURL: https://investor.apple.com/stock-price/default.aspx\nURL: https://www.marketwatch.com/investing/stock/aapl\nURL: https://groww.in/us-stocks/aapl\nURL: https://finance.yahoo.com/quote/AAPL/\nURL: https://www.cnbc.com/quotes/AAPL\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you wanted to say something, but it's empty. If you want to chat again or need assistance, feel free to start a new conversation!"
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'hello' are:\n[Start]\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'who am i?' are:\n[Start]\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "It seems like you wanted to say something, but it's empty. If you want to chat again or need assistance, feel free to start a new conversation!"
+    },
+    {
+        "role": "system",
+        "content": "The search results for 'hey' are:\n[Start]\nURL: https://www.merriam-webster.com/dictionary/hey\nURL: https://www.dictionary.com/browse/hey\nURL: https://www.hey.com/\nURL: https://www.collinsdictionary.com/dictionary/english/hey\nURL: https://dictionary.cambridge.org/dictionary/english/hey\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "No results found for your query: Who is Virat Kohli."
+    },
+    {
+        "role": "assistant",
+        "content": "I'm ending our conversation here. It was nice chatting with you, and I'll be here whenever you need me. Goodbye for now!"
+    },
+    {
+        "role": "system",
+        "content": "No results found for your query: Who is Virat Kohli."
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "An error occurred during the search: 'str' object has no attribute 'description'"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm ending our conversation here. It was nice chatting with you, and I'll be here whenever you need me. Goodbye for now!"
+    },
+    {
+        "role": "system",
+        "content": "An error occurred during the search: 'str' object has no attribute 'description'"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "Here are some search results for 'Who is Virat Kohli?':\n[Start]\nTitle: https://x.com/imvkohli\nDescription: No description available.\n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "I think we've reached the end of our conversation. If you need anything in the future, don't hesitate to reach out. Have a great day!"
+    },
+    {
+        "role": "system",
+        "content": "Here are some search results for 'Who is Virat Kohli?':\n[Start]\nTitle: https://x.com/imvkohli\nSummary: No meaningful summary available on the page.\n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "Here are some search results for 'Who is Elon Musk?':\n[Start]\nTitle: https://www.forbes.com/profile/elon-musk/\nSummary: I operate on the physics approach to analysis. You boil things down to the first principles or fundamental truths in a particular area and then you reason up from there.\n\nTitle: https://www.investopedia.com/articles/personal-finance/061015/how-elon-musk-became-elon-musk.asp\nSummary: No meaningful summary available on the page.\n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "I think we've reached the end of our conversation. If you need anything in the future, don't hesitate to reach out. Have a great day!"
+    },
+    {
+        "role": "system",
+        "content": "Title: Elon Musk\nSummary: I operate on the physics approach to analysis. You boil things down to the first principles or fundamental truths in a particular area and then you reason up from there.\n"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "An error occurred during the search: 'str' object has no attribute 'description'"
+    },
+    {
+        "role": "assistant",
+        "content": "I think we've reached the end of our conversation. If you need anything in the future, don't hesitate to reach out. Have a great day!"
+    },
+    {
+        "role": "system",
+        "content": "An error occurred during the search: 'str' object has no attribute 'description'"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "An error occurred during the search: 'str' object has no attribute 'description'"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm ending our conversation here. It was nice chatting with you, and I'll be here whenever you need me. Goodbye for now!"
+    },
+    {
+        "role": "system",
+        "content": "An error occurred during the search: 'str' object has no attribute 'description'"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "system",
+        "content": "Here are some search results for 'Who is Elon Musk?':\n[Start]\nTitle: https://www.forbes.com/profile/elon-musk/\nDescription: No description available.\n\nTitle: https://www.investopedia.com/articles/personal-finance/061015/how-elon-musk-became-elon-musk.asp\nDescription: No description available.\n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": "I think we've reached the end of our conversation. If you need anything in the future, don't hesitate to reach out. Have a great day!"
+    },
+    {
+        "role": "system",
+        "content": "Here are some search results for 'what is stock market?':\n[Start]\nTitle: https://en.wikipedia.org/wiki/Stock_market\nDescription: No description available.\n\nTitle: https://groww.in/p/stock-market-basics\nDescription: No description available.\n\nTitle: https://corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/stock-market/\nDescription: No description available.\n\nTitle: https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-market\nDescription: No description available.\n\nTitle: https://economictimes.indiatimes.com/definition/stock-market\nDescription: No description available.\n\n[end]"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "What is the stock price of apple?"
+    },
+    {
+        "role": "assistant",
+        "content": "Here are some reliable links about 'What is the stock price of apple?':\n1. https://investor.apple.com/stock-price/default.aspx\n2. https://www.marketwatch.com/investing/stock/aapl\n3. https://groww.in/us-stocks/aapl\n4. https://finance.yahoo.com/quote/AAPL/\n5. https://www.cnbc.com/quotes/AAPL"
+    },
+    {
+        "role": "user",
+        "content": "waht is the stock price of Tata"
+    },
+    {
+        "role": "assistant",
+        "content": "Here are some reliable links about 'What is the stock price of Tata?':\n1. https://www.moneycontrol.com/india/stockpricequote/automobiles-tractors/tatamotors/TM\n2. https://groww.in/stocks/tata-motors-ltd\n3. https://economictimes.indiatimes.com/tata-motors-ltd/stocks/companyid-11529.cms"
+    },
+    {
+        "role": "user",
+        "content": "who are you?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm Jarvis, your advanced AI chatbot! I was created to assist and provide information to users like you. I have access to real-time data and can provide answers to a wide range of questions. I'm here to help, so feel free to ask me anything!"
+    },
+    {
+        "role": "user",
+        "content": "who is elon?"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is a South African-born entrepreneur, inventor, and business magnate. He is the CEO and CTO of SpaceX, CEO and product architect of Tesla Inc., and co-founder of Neuralink and The Boring Company."
+    },
+    {
+        "role": "user",
+        "content": "who is tony stark?"
+    },
+    {
+        "role": "assistant",
+        "content": "Tony Stark, also known as Iron Man, is a fictional character and the main protagonist in the Marvel Cinematic Universe (MCU) movies. He is a billionaire inventor, industrialist, and philanthropist who creates advanced suits of armor to fight crime and protect the world."
+    },
+    {
+        "role": "user",
+        "content": "Hello"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "Hello"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "today's news"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "what is the stock price of apple"
+    },
+    {
+        "role": "assistant",
+        "content": "An error occurred while fetching search results: 'GoogleSearch' object has no attribute 'get'\n\nAI Analysis (via Groq):\nSimulated response from Groq's high-speed model."
+    },
+    {
+        "role": "user",
+        "content": "what is the stock price of TCS"
+    },
+    {
+        "role": "assistant",
+        "content": "No results found for 'what is the stock price of TCS'.\n\nAI Analysis (via Groq):\nSimulated response from Groq's high-speed model."
+    },
+    {
+        "role": "user",
+        "content": "What is the stock price of apple?"
+    },
+    {
+        "role": "assistant",
+        "content": "No results found for 'What is the stock price of apple?'.\n\nAI Analysis (via Groq):\nSimulated response from Groq's high-speed model."
+    },
+    {
+        "role": "user",
+        "content": "What is the stock price of apple"
+    },
+    {
+        "role": "assistant",
+        "content": "Search results for 'What is the stock price of apple':\n1. Stock Price: https://investor.apple.com/stock-price/default.aspx\n2. Apple Inc. Stock Quote (U.S.: Nasdaq) - AAPL: https://www.marketwatch.com/investing/stock/aapl\n3. Apple Inc. (AAPL) Stock Price, News, Quote & History: https://finance.yahoo.com/quote/AAPL/\n4. Apple Inc AAPL:NASDAQ - Stock Price, Quote and News: https://www.cnbc.com/quotes/AAPL\n5. Apple (AAPL) Stock Price, Quote, News & History: https://www.nasdaq.com/market-activity/stocks/aapl\n\nAI Analysis (via Groq):\nSimulated response from Groq's high-speed model."
+    },
+    {
+        "role": "user",
+        "content": "What is the stok price of NVIDIA"
+    },
+    {
+        "role": "assistant",
+        "content": "Here is what I found: NVIDIA Corporation - Stock Quote & Chart. You can read more about it here: https://investor.nvidia.com/stock-info/stock-quote-and-chart/default.aspx\n\nAI Analysis (via Groq):\nSimulated response from Groq's high-speed model."
+    },
+    {
+        "role": "user",
+        "content": "Who is Michale jordan?"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "TCS stocks"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "apple stocks?"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "TCS stocks"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "NVIDIA stock price"
+    },
+    {
+        "role": "assistant",
+        "content": ""
+    },
+    {
+        "role": "user",
+        "content": "who is elon musk?"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is a South African-born entrepreneur, inventor, and business magnate. He is the CEO and CTO of SpaceX, CEO and product architect of Tesla Inc., and co-founder of Neuralink and The Boring Company."
+    },
+    {
+        "role": "user",
+        "content": "Hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! It's nice to meet you. Is there something I can help you with or would you like to chat?"
+    },
+    {
+        "role": "user",
+        "content": "stock price of TCS"
+    },
+    {
+        "role": "assistant",
+        "content": "Here are some reliable links about 'stock price of TCS':\n1. https://www.moneycontrol.com/india/stockpricequote/computers-software/tataconsultancyservices/TCS\n2. https://groww.in/stocks/tata-consultancy-services-ltd\n3. https://economictimes.indiatimes.com/tata-consultancy-services-ltd/stocks/companyid-8345.cms"
+    },
+    {
+        "role": "user",
+        "content": "who am i?"
+    },
+    {
+        "role": "assistant",
+        "content": "I remember! You didn't specify your name, but earlier, you mentioned that your name was Amanpreet Singh Ossan, and you're 21 years old."
+    },
+    {
+        "role": "user",
+        "content": "who is elon musk?"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is a South African-born entrepreneur, inventor, and business magnate. He is the CEO and CTO of SpaceX, CEO and product architect of Tesla Inc., and co-founder of Neuralink and The Boring Company."
+    }
+]

@@ -1,0 +1,53 @@
+Writing a C++ program for a court is a complex task, as courts deal with a wide range of activities, including hearing cases, making rulings, and maintaining records. However, I can provide a simple C++ program that simulates a basic court system, such as keeping track of cases and displaying information about them.
+
+Here's an example of a simple C++ program for a court system:
+```c++
+#include <iostream>
+#include <string>
+#include <vector>
+
+class Case {
+public:
+    Case(std::string name, std::string description)
+        : name_(name), description_(description) {}
+
+    std::string GetName() const { return name_; }
+    std::string GetDescription() const { return description_; }
+
+private:
+    std::string name_;
+    std::string description_;
+};
+
+class Court {
+public:
+    void AddCase(const Case& case_) { cases_.push_back(case_); }
+    void DisplayCases() const {
+        for (const Case& c : cases_) {
+            std::cout << "Case Name: " << c.GetName() << "\n";
+            std::cout << "Description: " << c.GetDescription() << "\n";
+            std::cout << "----------------------------------------\n";
+        }
+    }
+
+private:
+    std::vector<Case> cases_;
+};
+
+int main() {
+    Court court;
+
+    // Add cases to the court
+    court.AddCase(Case("Case 1", "Theft of a bicycle"));
+    court.AddCase(Case("Case 2", "Assault and battery"));
+    court.AddCase(Case("Case 3", "Fraud and embezzlement"));
+
+    // Display cases in the court
+    court.DisplayCases();
+
+    return 0;
+}
+```
+This program creates a `Case` class to represent individual court cases, and a `Court` class to manage a collection of cases. The `Court` class has methods to add cases and display information about them. In the `main` function, we create a `Court` object, add some cases to it, and display the information about the cases.
+
+Of course, this is a very basic simulation of a court system and doesn't capture the complexity of real-world court proceedings. However, it provides a starting point for building a more sophisticated C++ program for a court system.

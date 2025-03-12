@@ -1,0 +1,67 @@
+Sure, here's an example of a simple singly linked list implementation in C:
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Node {
+    int data;
+    struct Node* next;
+} Node;
+
+Node* CreateNode(int data) {
+    Node* newNode = (Node*)malloc(sizeof(Node));
+    if (newNode == NULL) {
+        printf("Memory error\n");
+        exit(1);
+    }
+    newNode->data = data;
+    newNode->next = NULL;
+    return newNode;
+}
+
+void InsertAtBeginning(Node** head, int data) {
+    Node* newNode = CreateNode(data);
+    newNode->next = *head;
+    *head = newNode;
+}
+
+void InsertAtEnd(Node** head, int data) {
+    Node* newNode = CreateNode(data);
+    if (*head == NULL) {
+        *head = newNode;
+        return;
+    }
+    Node* current = *head;
+    while (current->next != NULL) {
+        current = current->next;
+    }
+    current->next = newNode;
+}
+
+void DisplayList(Node* head) {
+    Node* current = head;
+    while (current != NULL) {
+        printf("%d -> ", current->data);
+        current = current->next;
+    }
+    printf("NULL\n");
+}
+
+int main() {
+    Node* head = NULL;
+
+    InsertAtBeginning(&head, 10);
+    InsertAtBeginning(&head, 20);
+    InsertAtEnd(&head, 30);
+    InsertAtEnd(&head, 40);
+
+    DisplayList(head);
+
+    return 0;
+}
+```
+This program defines a `Node` struct to represent the nodes in the linked list. Each node contains an integer value and a pointer to the next node in the list. The program provides functions to create new nodes, insert nodes at the beginning and end of the list, and display the contents of the list.
+
+In the `main` function, we create an empty linked list and insert some nodes at the beginning and end of the list. We then display the contents of the list using the `DisplayList` function.
+
+Note that this is a simple implementation of a singly linked list and does not provide functions for deleting nodes or searching for nodes in the list. You can expand on this implementation to add more functionality as needed.
