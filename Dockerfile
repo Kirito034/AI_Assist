@@ -15,6 +15,9 @@ RUN apt-get update && apt-get install -y \
 # Copy project files
 COPY . /app
 
+# Copy .env file
+COPY .env /app/.env
+
 # Upgrade pip
 RUN python -m pip install --upgrade pip
 
