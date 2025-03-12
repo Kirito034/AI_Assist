@@ -334,5 +334,45 @@
     {
         "role": "assistant",
         "content": "No worries! I'm happy to switch back to my original name, Jarvis. From now on, I'll respond to \"Jarvis\" again. Thanks for trying out a new name, though!"
+    },
+    {
+        "role": "user",
+        "content": "Can you recognise a song for me jarvis?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'd love to help! Please provide me with some lyrics, a melody, or any details you can remember about the song, and I'll do my best to recognize and identify it for you!"
+    },
+    {
+        "role": "user",
+        "content": "It's something like."
+    },
+    {
+        "role": "assistant",
+        "content": "Please go ahead and give me any details, lyrics, or phrases you can remember about the song. Even if it's just a few words or a melody, I'll try to help you identify the song!"
+    },
+    {
+        "role": "user",
+        "content": "It goes like come on come on turn the radio on inspired and i then i won't take long."
+    },
+    {
+        "role": "assistant",
+        "content": "I think I can help you identify the song! With the lyrics \"come on come on turn the radio on inspired and I then I won't take long\", I'm going to take a guess that the song is \"Mr. Brightside\" by The Killers. Am I correct?"
+    },
+    {
+        "role": "user",
+        "content": "It goes like come on."
+    },
+    {
+        "role": "assistant",
+        "content": "With the lyrics \"come on\", I'm going to take a guess that the song is \"Come On Eileen\" by Dexys Midnight Runners. Am I correct?"
+    },
+    {
+        "role": "user",
+        "content": "No you are incorrect i was going for ciaz cheap thrills."
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize for the mistake! I should have gotten it right earlier! Yes, the correct song is indeed \"Cheap Thrills\" by Sia, featuring Sean Paul, and the lyrics \"come on\" are from that song! Thank you for correcting me!"
     }
 ]
