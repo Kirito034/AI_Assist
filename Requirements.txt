@@ -11,4 +11,6 @@ webdriver-manager
 mtranslate
 beautifulsoup4==4.13.3
 PyQt5
-PyQt5-sip
+AppOpener
+pywhatkit
+keyboard
