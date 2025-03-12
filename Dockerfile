@@ -1,4 +1,4 @@
-# Use a Python base image
+# Use a minimal Python base image
 FROM python:3.10-slim
 
 # Set the working directory inside the container
@@ -12,20 +12,13 @@ RUN apt-get update && apt-get install -y \
     libegl1-mesa \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy project files
+# Copy project files (excluding .env)
 COPY . /app
 
-# Copy .env file
-COPY .env /app/.env
-
-# Upgrade pip
-RUN python -m pip install --upgrade pip
-
-# Install required Python packages
-RUN pip install --no-cache-dir -r Requirements.txt
-
-# Install PyQt5 separately
-RUN pip install PyQt5 PyQt5-sip
+# Upgrade pip and install dependencies in a single step
+RUN python -m pip install --upgrade pip && \
+    pip install --no-cache-dir -r Requirements.txt && \
+    pip install --no-cache-dir PyQt5 PyQt5-sip
 
 # Expose the necessary port
 EXPOSE 80
