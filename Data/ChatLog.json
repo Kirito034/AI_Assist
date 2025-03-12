@@ -374,5 +374,37 @@
     {
         "role": "assistant",
         "content": "I apologize for the mistake! I should have gotten it right earlier! Yes, the correct song is indeed \"Cheap Thrills\" by Sia, featuring Sean Paul, and the lyrics \"come on\" are from that song! Thank you for correcting me!"
+    },
+    {
+        "role": "user",
+        "content": "To fir."
+    },
+    {
+        "role": "assistant",
+        "content": "I think you meant to type \"to fire\"?"
+    },
+    {
+        "role": "user",
+        "content": "Make sure."
+    },
+    {
+        "role": "assistant",
+        "content": "I think you meant to type \"make sure\"?"
+    },
+    {
+        "role": "user",
+        "content": "Come on."
+    },
+    {
+        "role": "assistant",
+        "content": "The lyrics \"come on\" again! I know this one! It's \"Cheap Thrills\" by Sia, featuring Sean Paul!"
+    },
+    {
+        "role": "user",
+        "content": "Download bfg reco cleaner."
+    },
+    {
+        "role": "assistant",
+        "content": "You're looking to download BFG Repo-Cleaner!"
     }
 ]
