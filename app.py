@@ -177,12 +177,4 @@ def SecondThread():
     GraphicalUserInterface()
 
 if __name__ == "__main__":
-    thread1 = threading.Thread(target=SecondThread, daemon=True)
-    thread1.start()
-
-    thread2 = threading.Thread(target=FirstThread, daemon=True)
-    thread2.start()
-
-    # Keep the main program running
-    thread1.join()
-    thread2.join()
+    app.run(host="0.0.0.0", port=5000)
