@@ -1,26 +1,26 @@
-# Use Python 3.10 to match the required dependencies
-FROM python:3.10-slim
-# Set the working directory in the container
+# Use Python 3.9 slim version
+FROM python:3.9-slim
+
+# Set working directory
 WORKDIR /app
 
-# Update package list and install dependencies for psycopg2
+# Install system dependencies required for some Python packages
 RUN apt-get update && apt-get install -y \
     git \
     libpq-dev \
-    gcc \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy the current directory contents into the container at /app
+# Copy project files to container
 COPY . /app
 
-# Install any needed packages specified in requirements.txt
+# Ensure Python is upgraded
+RUN python -m pip install --upgrade pip
+
+# Install dependencies
 RUN pip install --no-cache-dir -r Requirements.txt
 
-# Make port 80 available to the world outside this container
+# Expose the necessary port
 EXPOSE 80
 
-# Define environment variable
-ENV NAME World
-
-# Run app.py when the container launches
-CMD ["python", "app.py"]
+# Run the application
+CMD ["python3", "/app/app.py"]
