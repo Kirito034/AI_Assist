@@ -40,7 +40,7 @@ subprocesses = []
 Functions = ["open", "close", "play", "system", "content", "google search", "youtube search"]
 
 def ShowDefaultChatIfNoChats():
-    with open(r'Data\ChatLog.json', "r", encoding='utf-8') as file:
+    with open(r'Data/ChatLog.json', "r", encoding='utf-8') as file:
         if len(file.read().strip()) < 5:
             with open(TempDirectoryPath('Database.data'), 'w', encoding='utf-8') as db_file:
                 db_file.write("")
@@ -48,7 +48,7 @@ def ShowDefaultChatIfNoChats():
                 resp_file.write(DefaultMessage)
 
 def ReadChatLogJson():
-    with open(r'Data\ChatLog.json', 'r', encoding='utf-8') as file:
+    with open(r'Data/ChatLog.json', 'r', encoding='utf-8') as file:
         return json.load(file)
 
 def ChatLogIntegration():
