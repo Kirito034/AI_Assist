@@ -1,0 +1,5 @@
+[build]
+command = "pip install -r Requirements.txt"
+
+[start]
+command = "python app.py" 
