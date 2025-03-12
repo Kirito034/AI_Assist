@@ -1,26 +1,20 @@
-# Use Python 3.9 slim version
-FROM python:3.9-slim
+# Use the official Python image from the Docker Hub
+FROM python:3.10-slim
 
-# Set working directory
+# Set the working directory in the container
 WORKDIR /app
 
-# Install system dependencies required for some Python packages
-RUN apt-get update && apt-get install -y \
-    git \
-    libpq-dev \
-    && rm -rf /var/lib/apt/lists/*
-
-# Copy project files to container
+# Copy the current directory contents into the container at /app
 COPY . /app
 
-# Ensure Python is upgraded
-RUN python -m pip install --upgrade pip
-
-# Install dependencies
+# Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r Requirements.txt
 
-# Expose the necessary port
+# Make port 80 available to the world outside this container
 EXPOSE 80
 
-# Run the application
-CMD ["python3", "/app/app.py"]
+# Define environment variable
+ENV NAME World
+
+# Run app.py when the container launches
+CMD ["python", "app.py"]
