@@ -198,6 +198,7 @@ typing_extensions==4.12.2
 tzdata==2025.1
 uritemplate==4.1.1
 urllib3==2.3.0
+git
 watchdog @ git+https://github.com/gorakhargosh/watchdog.git@f3e78cd4d9500d287bd11ec5d08a1f351601028d
 webdriver-manager==4.0.2
 websocket-client==1.8.0
