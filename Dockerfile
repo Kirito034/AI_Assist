@@ -20,8 +20,11 @@ RUN python -m pip install --upgrade pip && \
     pip install --no-cache-dir -r Requirements.txt && \
     pip install --no-cache-dir PyQt5 PyQt5-sip
 
-# Expose the necessary port
-EXPOSE 80
+# Expose Railway's dynamic port (not fixed 80)
+EXPOSE 5000
+
+# Ensure Railway's dynamic port is used
+ENV PORT=5000
 
 # Command to run the application
 CMD ["python3", "/app/app.py"]
