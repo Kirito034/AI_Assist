@@ -1,5 +1,9 @@
 # Import required libraries
-from AppOpener import close, open as appopen  # Import functions to open and close apps.
+import platform
+
+# Conditional import for AppOpener
+if platform.system() == "Windows":
+    from AppOpener import close, open as appopen  # Import functions to open and close apps.
 from webbrowser import open as webopen  # Import web browser functionality.
 from pywhatkit import search, playonyt  # Import functions for Google search and YouTube playback.
 from dotenv import dotenv_values  # Import dotenv to manage environment variables.
