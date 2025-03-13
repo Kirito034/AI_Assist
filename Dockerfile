@@ -11,6 +11,8 @@ RUN apt-get update && apt-get install -y \
     libxkbcommon-x11-0 \
     libegl1-mesa \
     xvfb \
+    x11-utils \
+    xdotool \
     && rm -rf /var/lib/apt/lists/*
 
 # Set environment variable to use the virtual display
@@ -30,5 +32,5 @@ EXPOSE 5000
 # Ensure Railway's dynamic port is used
 ENV PORT=5000
 
-# Command to run the application with Xvfb
-CMD ["bash", "-c", "Xvfb :99 -screen 0 1024x768x16 & python3 /app/app.py"]
+# Start Xvfb and run the application
+CMD ["bash", "-c", "Xvfb :99 -screen 0 1024x768x16 & sleep 2 && python3 /app/app.py"]
