@@ -15,6 +15,12 @@ RUN apt-get update && apt-get install -y \
 # Copy project files (excluding .env)
 COPY . /app
 
+# Install Xvfb to simulate a display for PyAutoGUI
+RUN apt-get update && apt-get install -y xvfb
+
+# Set environment variable to use the virtual display
+ENV DISPLAY=:99
+
 # Upgrade pip and install dependencies in a single step
 RUN python -m pip install --upgrade pip && \
     pip install --no-cache-dir -r Requirements.txt && \
