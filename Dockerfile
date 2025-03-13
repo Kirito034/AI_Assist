@@ -15,6 +15,12 @@ RUN apt-get update && apt-get install -y \
 # Copy project files (excluding .env)
 COPY . /app
 
+# Install Xvfb to create a virtual display
+RUN apt-get update && apt-get install -y xvfb
+
+# Start Xvfb before running the app
+
+
 # Install Xvfb to simulate a display for PyAutoGUI
 RUN apt-get update && apt-get install -y xvfb
 
@@ -33,4 +39,6 @@ EXPOSE 5000
 ENV PORT=5000
 
 # Command to run the application
-CMD ["python3", "/app/app.py"]
+CMD Xvfb :99 -screen 0 1024x768x16 & python3 /app/app.py
+
+
